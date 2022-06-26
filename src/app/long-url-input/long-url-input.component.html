@@ -1,8 +1,7 @@
-<form (ngSubmit)='shortenURL(longUrl.value)' >
+<form id="link-form" (ngSubmit)='shortenURL(longUrl.value)'>
 
     <label for="longUrlInput">
-    <input id="longUrlInput" #longUrl type="url" required [placeholder]='placeholderUrl' />
-
+        <input id="longUrlInput" #longUrl type="url" required [placeholder]='placeholderUrl' />
     </label>
     <input type="submit" />
 </form>

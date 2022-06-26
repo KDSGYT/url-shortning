@@ -5,11 +5,17 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { LongUrlInputComponent } from './long-url-input/long-url-input.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { OutputComponent } from './output/output.component';
+import { JumboComponent } from './jumbo/jumbo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LongUrlInputComponent
+    LongUrlInputComponent,
+    NavbarComponent,
+    OutputComponent,
+    JumboComponent
   ],
   imports: [
     BrowserModule,
