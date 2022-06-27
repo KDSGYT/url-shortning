@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss', '../assets/customClasses.scss']
 })
 export class AppComponent {
-  title = 'url-shortning';
+  title = 'drop.je';
 }
