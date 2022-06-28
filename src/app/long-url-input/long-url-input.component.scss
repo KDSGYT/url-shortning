@@ -18,13 +18,17 @@
     #input-field {
         width: 80%;
         height: inherit;
+
         input{
             border:none;
             background-color: $greyBackgroundColor;
-            padding: 5px;
+            padding: 5px 20px;
+            // padding-left: 20px;
+
             height: inherit;
             width: inherit;
             font-size: 1em;
+            outline: none;
         }
     }
 
@@ -35,5 +39,7 @@
         // background: none;
         background-color: $accentColor;
         height: inherit;
+        font-size: 1.1em;
+        font-weight: 600;
     }
 }
