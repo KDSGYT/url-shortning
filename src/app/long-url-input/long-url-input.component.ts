@@ -8,7 +8,6 @@ import { ConvertUrlService } from '../convert-url.service';
 })
 export class LongUrlInputComponent implements OnInit {
 
-  public placeholderUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=43s';
   constructor(private URLService:ConvertUrlService) { 
   }
 

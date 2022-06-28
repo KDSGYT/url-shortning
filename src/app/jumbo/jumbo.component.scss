@@ -1,0 +1,25 @@
+#jumbo-container {
+    width: 100vw;
+    margin-top: -4rem;
+    align-items: center;
+
+    h1 {
+        font-family: 'Freehand', cursive;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 6rem;
+        margin: 0 auto;
+    }
+
+    h1,
+    p {
+        width: 40%;
+        text-align: center;
+
+    }
+    p{
+        margin: auto;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+}

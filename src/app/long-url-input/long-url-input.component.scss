@@ -1,0 +1,45 @@
+@import '../../assets/customClasses.scss';
+#form-container {
+    // border: 2px solid black;
+    margin-bottom: 5em;
+    width: 35em;
+    height: 3em;
+
+    #link-form {
+        width: 100%;
+        height: inherit;
+    }
+
+    #input-field,
+    #submit-button{
+        border-radius: 5px;
+    }
+
+    #input-field {
+        width: 80%;
+        height: inherit;
+
+        input{
+            border:none;
+            background-color: $greyBackgroundColor;
+            padding: 5px 20px;
+            // padding-left: 20px;
+
+            height: inherit;
+            width: inherit;
+            font-size: 1em;
+            outline: none;
+        }
+    }
+
+    #submit-button {
+        width: 20%;
+        border: none;
+        margin-top: -1%;
+        // background: none;
+        background-color: $accentColor;
+        height: inherit;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+}
