@@ -1,3 +1,17 @@
-h2{
+@import '../../assets/customClasses.scss';
+
+#output-container {
+    background-color: $accentColor;
+    width: 30em;
+    height: 3em;
     cursor: pointer;
+    p {
+        font-size: 1.4em;
+        padding: auto;
+        text-align: center;
+        width: inherit;
+    }
+    img {
+        transform: scale(0.7,0.7);
+    }
 }

@@ -11,6 +11,7 @@ import { JumboComponent } from './jumbo/jumbo.component';
 import { AboutComponent } from './about/about.component';
 import { ModeSwitchComponent } from './mode-switch/mode-switch.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     OutputComponent,
     JumboComponent,
     AboutComponent,
-    ModeSwitchComponent
+    ModeSwitchComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
