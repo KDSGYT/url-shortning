@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemeService } from 'src/theme.service';
 @Component({
   selector: 'app-mode-switch',
   templateUrl: './mode-switch.component.html',
@@ -6,12 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModeSwitchComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ThemeService:ThemeService) { }
 
-  changeMode =  () => {
-    console.log("Changed the mode to dark or light when clicked.")
-  }
-
+  changeMode = this.ThemeService.switchMode;
+  
   ngOnInit(): void {
   }
 
