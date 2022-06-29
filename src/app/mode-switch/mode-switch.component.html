@@ -1,3 +1,5 @@
 <button id="mode-switch" (click)='changeMode()'>
-    <img src="../../assets/110827_moon_icon.png" />
+    <img *ngIf="!darkMode" src="../../assets/110827_moon_icon.png" />
+    <img *ngIf="darkMode" src="../../assets/icons8-sun-30.png" />
+
 </button>

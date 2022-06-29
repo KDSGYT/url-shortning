@@ -1,8 +1,10 @@
-<nav class="flex" id="navbar">
+<nav class="flex" id="navbar" [ngClass]="darkMode ? 'darkMode':''">
     <p id="title">drop.je</p>
-    <div class="flex flex-row" >
+    <div class="flex flex-row">
         <app-mode-switch></app-mode-switch>
-    <app-about></app-about>
-    <a target="_blank" href="https://github.com/KDSGYT/url-shortning">Github</a>
+        <!-- <app-about></app-about> -->
+        <a target="_blank" href="https://kdsg.live">About</a>
+
+        <a target="_blank" href="https://github.com/KDSGYT/url-shortning">Github</a>
     </div>
 </nav>

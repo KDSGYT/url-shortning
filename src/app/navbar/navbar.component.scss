@@ -1,4 +1,3 @@
-
 #navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -6,6 +5,8 @@
     width: 60em;
     height: 10em;
     max-height: 10em;
+    // border: 2px solid black;
+    margin-top: -6%;
 
     #title {
         font-family: 'Freehand', cursive;
@@ -15,5 +16,11 @@
     .flex-row {
         justify-content: space-evenly;
         width: 60%;
+    }
+}
+
+.darkMode#navbar {
+    * {
+        color: white;
     }
 }

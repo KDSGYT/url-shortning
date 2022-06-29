@@ -2,7 +2,7 @@
     <form id="link-form" (ngSubmit)='shortenURL(longUrl.value)'>
 
         <label id="input-field" for="longUrlInput">
-            <input id="longUrlInput" #longUrl type="url" required placeholder='Paste your link here....' />
+            <input id="longUrlInput" #longUrl autocomplete="off" type="url" required placeholder='Paste your link here....' />
         </label>
         <input type="submit" value="Drop!" id="submit-button" />
     </form>
