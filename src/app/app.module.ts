@@ -8,7 +8,6 @@ import { LongUrlInputComponent } from './long-url-input/long-url-input.component
 import { NavbarComponent } from './navbar/navbar.component';
 import { OutputComponent } from './output/output.component';
 import { JumboComponent } from './jumbo/jumbo.component';
-import { AboutComponent } from './about/about.component';
 import { ModeSwitchComponent } from './mode-switch/mode-switch.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
@@ -20,7 +19,6 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     OutputComponent,
     JumboComponent,
-    AboutComponent,
     ModeSwitchComponent,
     FooterComponent
   ],
